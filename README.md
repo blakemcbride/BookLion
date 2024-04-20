@@ -6,7 +6,7 @@
 ## Book Summaries You Can Edit
 
 BookLion is a web-based, publicly accessible ([https://booklion.com](https://booklion.com)) system designed to allow the user to store
-the following information about a book their reading:
+the following information about a book they are reading:
 
 - Book title, author, year, genre, and description
 - Chapter summaries
