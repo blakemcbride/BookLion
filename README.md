@@ -18,7 +18,7 @@ The system allows book summaries to be shared among all users of the system so t
 one person enters information about a book, other users of the system can view and edit 
 notes on all books.
 
-The system also tracks the chapter each note is associated with.  This way, other
+The system also tracks the chapter with which each note is associated.  This way, other
 users can limit what they see and avoid unwanted spoilers.
 
 ### Technology
@@ -29,7 +29,7 @@ While this software runs as intended very well, it is an utter embarrassment in 
 of the technology chosen for its development.  It is the first web-based application I wrote.
 Not fully understanding the landscape, wanting to avoid HTML, and falling for Google's hype,
 I chose the Google Web Toolkit (GWT).  Also, in ignorance, I chose the Hibernate ORM.  Both
-turned out to be extremely poor choices.  Yet, the system runs fine and I've learned some
+turned out to be extremely poor choices.  Yet, the system runs fine, and I've learned some
 valuable lessons.
 
 This system requires:
