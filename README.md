@@ -26,7 +26,7 @@ users can limit what they see and avoid unwanted spoilers.
 BookLion is written in Java utilizing GWT and SQL.
 
 While this software runs as intended very well, it is an utter embarrassment in terms 
-of the technology chosen for its development.  It is the first web-based application I wrote.
+of the technology chosen for its development.  It is the first web-based application I wrote from scratch by myself.
 Not fully understanding the landscape, wanting to avoid HTML, and falling for Google's hype,
 I chose the Google Web Toolkit (GWT).  Also, in ignorance, I chose the Hibernate ORM.  Both
 turned out to be extremely poor choices.  Yet, the system runs fine, and I've learned some
