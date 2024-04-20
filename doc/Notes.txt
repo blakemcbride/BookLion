@@ -1,0 +1,10 @@
+
+System requires:
+
+64-bit Java 7 (will not build with Java 8)
+GWT-2.5.1
+tomcat 7
+Hibernate 3.6.5
+
+It builds with intelliJ:  Build / Build Artifact / BookLion / Rebuild All
+

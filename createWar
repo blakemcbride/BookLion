@@ -1,0 +1,7 @@
+#
+
+rm -f BookLion.war
+cd war
+jar cf ../BookLion.war .
+echo Done.
+

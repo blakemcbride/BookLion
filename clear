@@ -1,0 +1,3 @@
+#
+rm -rf out
+rm -rf ~/Library/Caches/IntelliJIdea13/gwt

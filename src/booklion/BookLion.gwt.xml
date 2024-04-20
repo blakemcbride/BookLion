@@ -1,0 +1,12 @@
+<module>
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="com.google.gwt.user.theme.standard.Standard"/>
+    <inherits name="com.google.gwt.resources.Resources" />
+	<inherits name="com.sencha.gxt.ui.GXT"/>
+	<source path="client"/>
+	<source path="shared"/>
+
+	<entry-point class="booklion.client.login.Login"/>
+    <!-- the following is used to make the CSS stuff appear pretty in the debugger
+    <set-configuration-property name="CssResource.style" value="pretty" />  -->
+</module>

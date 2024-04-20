@@ -1,0 +1,13 @@
+)lib
+)save test
+)load test
+)off
+)load pkg
+]pkgs
+)off
+)load pkg
+)fns
+]pkg packages
+]pkg names pkg
+]pkg new APLEditor
+)off

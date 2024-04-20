@@ -1,0 +1,4 @@
+#
+
+java -jar DBSync4.jar -ip $1 -ip $2 -op
+

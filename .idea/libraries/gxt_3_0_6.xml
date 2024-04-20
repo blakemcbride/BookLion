@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="gxt-3.0.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/gxt-3.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/gxt-3.0.6.jar!/" />
+    </SOURCES>
+  </library>
+</component>

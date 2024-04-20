@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="BookLion:GWT">
+    <output-path>$PROJECT_DIR$/out/artifacts/BookLion_GWT</output-path>
+    <root id="root">
+      <element id="gwt-compiler-output" facet="BookLion/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BookLion">
+    <output-path>$PROJECT_DIR$/dist</output-path>
+    <root id="archive" name="BookLion.war">
+      <element id="artifact" artifact-name="BookLion:GWT" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BookLion" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="antlr-2.7.6" />
+          <element id="library" level="project" name="ehcache-core-2.3.3" />
+          <element id="library" level="project" name="gwt-servlet" />
+          <element id="library" level="project" name="gwt-user" />
+          <element id="library" level="project" name="gxt-3.0.6" />
+          <element id="library" level="project" name="hibernate3" />
+          <element id="library" level="project" name="log4j-1.2.16" />
+          <element id="library" level="project" name="postgresql-9.0-801.jdbc4" />
+          <element id="library" level="project" name="slf4j-api-1.6.1" />
+          <element id="library" level="project" name="mail" />
+          <element id="library" level="project" name="json" />
+          <element id="library" level="project" name="Kiss" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="BookLion/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,86 @@
+/* example Constant which is 100% */
+@def wallTowall 100%;
+
+html {  }
+body {
+    color: #000;
+    background: #fff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+}
+
+/* basic style */
+.boxy {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+/* sprite */
+/*@sprite .logoBox {
+    gwt-image: "logo";
+    border: 2px solid #000;
+    margin: 40px;
+}*/
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+
+.htmlFormatting h1,h2,h3,h4,h5,h6,b,strong { font-weight: bolder; }
+
+.htmlFormatting h1 { font-size: 2em; margin-bottom: 0.65em; }
+.htmlFormatting h2 { font-size: 1.5em; margin-bottom: 0.9em; }
+.htmlFormatting h3 { font-size: 1.17em; line-height: 1; margin-bottom: 1.2em; }
+.htmlFormatting h4 { font-size: 1em; line-height: 1.25; margin-bottom: 1.25em; }
+.htmlFormatting h5 { font-size: .85em; margin-bottom: 1.5em; }
+.htmlFormatting h6 { font-size: .78em; margin-bottom: 1.5em; }
+
+.htmlFormatting h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+    margin: 0;
+}
+
+/* Text elements
+-------------------------------------------------------------- */
+
+.htmlFormatting p           { margin: 1em 0 1em; }
+/*
+  These can be used to pull an image at the start of a paragraph, so
+  that the text flows around it (usage: <p><img class="left">Text</p>)
+ */
+
+.left       { float: left !important; }
+.htmlFormatting p .left   { margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+.right      { float: right !important; }
+.htmlFormatting p .right   { margin: 1.5em 0 1.5em 1.5em; padding: 0; }
+
+.htmlFormatting a:focus, a:hover     { color: #09f; }
+.htmlFormatting a           { color: #06c; text-decoration: underline; }
+
+.htmlFormatting blockquote  { margin: 1.5em; color: #666; font-style: italic; }
+.htmlFormatting em,dfn, var      { font-style: italic; }
+.htmlFormatting sup, sub    { line-height: 0; }
+
+.htmlFormatting abbr, acronym     { border-bottom: 1px dotted #666; }
+.htmlFormatting address     { margin: 0 0 1.5em; font-style: italic; }
+.htmlFormatting del         { color:#666; }
+
+.htmlFormatting pre         { margin: 1.5em 0; white-space: pre; }
+.htmlFormatting pre,code,tt { font: 1em monospace, "courier new", 'andale mono', 'lucida console'; line-height: 1.5; }
+
+
+/* Lists
+-------------------------------------------------------------- */
+
+.htmlFormatting li ul,li ol  { margin: 0; }
+.htmlFormatting ul, ol { margin: 0 1.5em 1.5em 2.5em; }
+
+.htmlFormatting ul     { list-style-type: disc; }
+.htmlFormatting ol     { list-style-type: decimal; }
+
+.htmlFormatting dl     { margin: 0 0 1.5em 0; }
+.htmlFormatting dl dt  { font-weight: bold; }
+.htmlFormatting dd     { margin-left: 1.5em;}
+

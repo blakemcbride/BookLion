@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <!--<servlet>-->
+        <!--<servlet-name>com.mySampleApplication.MySampleApplication MySampleApplicationService</servlet-name>-->
+        <!--<servlet-class>com.mySampleApplication.server.MySampleApplicationServiceImpl</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>com.mySampleApplication.MySampleApplication MySampleApplicationService</servlet-name>-->
+        <!--<url-pattern>/MySampleApplication/MySampleApplicationService</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+
+    <servlet>
+        <servlet-name>LoginService</servlet-name>
+        <servlet-class>booklion.server.login.LoginServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginService</servlet-name>
+        <url-pattern>/booklion.BookLion/LoginService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditUserService</servlet-name>
+        <servlet-class>booklion.server.edituser.EditUserServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditUserService</servlet-name>
+        <url-pattern>/booklion.BookLion/EditUserService</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GenreService</servlet-name>
+        <servlet-class>booklion.server.genre.GenreServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GenreService</servlet-name>
+        <url-pattern>/booklion.BookLion/GenreService</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>BooklistService</servlet-name>
+        <servlet-class>booklion.server.booklist.BooklistServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion ChapterListService</servlet-name>
+        <servlet-class>booklion.server.chapterlist.ChapterListServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion SpeciesService</servlet-name>
+        <servlet-class>booklion.server.species.SpeciesServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion AuthorSelectService</servlet-name>
+        <servlet-class>booklion.server.authorselect.AuthorSelectServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion ChapterEditService</servlet-name>
+        <servlet-class>booklion.server.chapteredit.ChapterEditServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion CharacterEditService</servlet-name>
+        <servlet-class>booklion.server.characteredit.CharacterEditServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion LocationEditService</servlet-name>
+        <servlet-class>booklion.server.locationedit.LocationEditServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion SpeciesEditService</servlet-name>
+        <servlet-class>booklion.server.speciesedit.SpeciesEditServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion UserInfoChangeService</servlet-name>
+        <servlet-class>booklion.server.userInfoChange.UserInfoChangeServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion UserLoginChangeService</servlet-name>
+        <servlet-class>booklion.server.userLoginChange.UserLoginChangeServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booklion.BookLion SupervisorMainService</servlet-name>
+        <servlet-class>booklion.server.supervisormain.SupervisorMainServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BooklistService</servlet-name>
+        <url-pattern>/booklion.BookLion/BooklistService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion ChapterListService</servlet-name>
+        <url-pattern>/booklion.BookLion/ChapterListService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion SpeciesService</servlet-name>
+        <url-pattern>/booklion.BookLion/SpeciesService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion AuthorSelectService</servlet-name>
+        <url-pattern>/booklion.BookLion/AuthorSelectService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion ChapterEditService</servlet-name>
+        <url-pattern>/booklion.BookLion/ChapterEditService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion CharacterEditService</servlet-name>
+        <url-pattern>/booklion.BookLion/CharacterEditService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion LocationEditService</servlet-name>
+        <url-pattern>/booklion.BookLion/LocationEditService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion SpeciesEditService</servlet-name>
+        <url-pattern>/booklion.BookLion/SpeciesEditService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion UserInfoChangeService</servlet-name>
+        <url-pattern>/booklion.BookLion/UserInfoChangeService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion UserLoginChangeService</servlet-name>
+        <url-pattern>/booklion.BookLion/UserLoginChangeService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booklion.BookLion SupervisorMainService</servlet-name>
+        <url-pattern>/booklion.BookLion/SupervisorMainService</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

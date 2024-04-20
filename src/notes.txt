@@ -1,0 +1,118 @@
+
+Development notes
+
+----------------------------------------------------------------
+
+Short term
+----------
+
+New user screen
+---------------
+Data format bad
+Error messages hard to catch
+
+When editing chapter, character, loc or spec allow simultnionus editing of first log for it
+
+
+Display first log entry when listing item CCLC
+
+Ability to edit book demographics from book main
+
+There seems to be a timeout going on
+
+
+
+when adding a book
+------------------
+Specify genre
+Specify authors 1, 2 & 3
+bigger description
+
+
+User ability to change PW & email
+
+Flesh out "information" button
+
+Flesh out "New Login" button
+
+Add a Donate button
+
+Stop service instances from being auto allocated on system startup.  Wait till they are used.
+
+
+Faye is seeing some sort of communications error
+
+
+
+
+
+----------------------------------------------------------------
+
+Long Term
+---------
+
+Need a way to register new users
+
+When creating a book, always add species type "Human"
+
+Add a border on the left and right sides
+
+Make button sizes consistent rather than the size of the text
+
+Make non-admin menu
+
+Enhance top line presentation to include logo, etc.
+
+Implement all history functionality
+
+Need utility to reverse changes made by a rogue user
+
+Record copy and history creation should use reflection instead of explicit file copies
+
+Need to add code to limit what they see based on what chapter they are on.  This should auto-increment if
+they add a chapter.
+
+Need user registration (via email) ability
+
+Flesh out main page product description
+
+Add logo to main page
+
+Speed download/load time by breaking up program into separate sections
+
+Add a "Donate" button
+
+Search for books by Genre
+
+Buttons to add characters, species, etc. should show how many are already there
+
+Deal with location.inside_location_id
+
+Book ratings
+
+Ability to reorder chapters or at least add them where desired
+
+Some grids expand too much.  They are unnecessarily large.  Find a way to limit the expansion.  Don't always auth-resize
+to the maximum size of the window.
+
+Get browser back button working
+
+Right-justify labels on add / edit dialogs
+
+From all log screens, add button to go to book main screen
+
+Edit book specifics from book main screen
+
+Create program to test load the real BookLion site
+
+Fnd out how to monitor max simultaneous users
+
+
+Browsers
+--------
+Chrome 31-32
+IE 8-11
+Firefox 26
+Safari 6-7
+
+
