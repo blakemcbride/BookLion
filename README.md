@@ -32,7 +32,7 @@ I chose the Google Web Toolkit (GWT).  Also, in ignorance, I chose the Hibernate
 turned out to be extremely poor choices.  Yet, the system runs fine and I've learned some
 valuable lessons.
 
-This system does require:
+This system requires:
 
 - Java 7
 - GWT 2.5.1 (included)
