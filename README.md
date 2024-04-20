@@ -1,3 +1,6 @@
+![](war/images/booklion.png)
+
+
 # BookLion
 
 ## Book Summaries You Can Edit
