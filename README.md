@@ -5,7 +5,7 @@
 
 ## Book Summaries You Can Edit
 
-BookLion is a web-based, publicly accessible ([https://booklion.com/]()) system designed to allow the user to store
+BookLion is a web-based, publicly accessible ([https://booklion.com](https://booklion.com)) system designed to allow the user to store
 the following information about a book their reading:
 
 - Book title, author, year, genre, and description
@@ -43,6 +43,6 @@ An IntelliJ project is included with the system.
 
 Subsequent to the development of this system, and perhaps in response to the experience,
 I ended up writing my own open-source, full-stack web development framework called KISS.
-You can check it out at [https://kissweb.org/]() or [https://github.com/blakemcbride/Kiss]()
+You can check it out at [https://kissweb.org](https://kissweb.org) or [https://github.com/blakemcbride/Kiss](https://github.com/blakemcbride/Kiss)
 
-The home for the code is at [https://github.com/blakemcbride/BookLion]()
+The home for the code is at [https://github.com/blakemcbride/BookLion](https://github.com/blakemcbride/BookLion)
