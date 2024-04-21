@@ -39,6 +39,9 @@ This system requires:
 - Tomcat 7
 - Hibernate 3.6.5 (included)
 
+As developed, the system uses the PostgreSQL database.  The schema is located in
+```schema/booklion.sql```
+
 An IntelliJ project is included with the system.
 
 Subsequent to the development of this system, and perhaps in response to the experience,
