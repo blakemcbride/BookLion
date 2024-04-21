@@ -40,7 +40,7 @@ This system requires:
 - Hibernate 3.6.5 (included)
 
 As developed, the system uses the PostgreSQL database.  The schema is located in
-```schema/booklion.sql```
+```schema/booklion-schema.sql```
 
 An IntelliJ project is included with the system.
 
