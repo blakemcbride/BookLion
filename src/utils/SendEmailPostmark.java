@@ -22,9 +22,7 @@ import java.util.List;
 class SendEmailPostmark extends SendEmailGeneric {
 
     private static final String URL = "https://api.postmarkapp.com/email";
-    private static final String STACK360_API_KEY = "28d698d2-5aba-4253-8968-e4ce5951b23b";
-    private static final String WAY_TO_GO_API_KEY = "c22f9d8b-35fc-4da6-af30-eac04385f63d";
-    private static final String BOOKLION_API_KEY = "06e350a3-5830-48fe-82f4-3487bdeefae8";
+    private static final String BOOKLION_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
     private final boolean testMode;
     private String apiKey;
@@ -216,7 +214,7 @@ class SendEmailPostmark extends SendEmailGeneric {
         headers.put("Accept", "application/json");
         headers.put("Content-Type", "application/json");
         //headers.put("X-Postmark-Server-Token", WAY_TO_GO_API_KEY);
-        headers.put("X-Postmark-Server-Token", STACK360_API_KEY);
+        headers.put("X-Postmark-Server-Token", BOOKLION_API_KEY);
         JSONObject data = new JSONObject();
 //        data.put("From", "blake@stack360.io");
         data.put("From", "Sam Jones <do-not-reply@stack360.io>");

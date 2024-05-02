@@ -8,3 +8,4 @@ Hibernate 3.6.5
 
 It builds with intelliJ:  Build / Build Artifact / BookLion / Rebuild All
 
+When deploying, BookLion.html must be copied to index.html

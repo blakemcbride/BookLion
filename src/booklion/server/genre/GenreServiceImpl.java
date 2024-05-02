@@ -2,9 +2,7 @@ package booklion.server.genre;
 
 import beans.Genre;
 import booklion.client.genre.GenreItem;
-import booklion.client.global.Information;
 import booklion.client.utils.StandardReturn;
-import booklion.server.login.LoginEmailNotification;
 import business.User;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import booklion.client.genre.GenreService;
@@ -12,8 +10,6 @@ import dbutils.ExceptionMessage;
 import dbutils.HibernateSessionUtil;
 import dbutils.HibernateUtil;
 import org.apache.log4j.Logger;
-import utils.DateUtils;
-import utils.EMail;
 
 import java.util.List;
 

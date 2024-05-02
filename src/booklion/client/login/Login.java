@@ -448,13 +448,14 @@ public class Login implements EntryPoint {
             }
         });
 
+        /*
         Anchor.wrap(DOM.getElementById("why-donate")).addClickHandler(new ClickHandler() {
             @Override
             public void onClick(ClickEvent event) {
                 Message.msgOk("Although the content on BookLion was provided through the work of many people, BookLion itself was conceived, designed, built, and hosted by one person; Blake McBride.  It is owned by a one-man company named Arahant that Blake owns.  There are no partners or investors.  Any support you can offer is greatly appreciated.");
             }
         });
-
+*/
 
         FormPanel fLoginForm = FormPanel.wrap(DOM.getElementById("login_form"));  // This line must be after the submit button wrapper
 
